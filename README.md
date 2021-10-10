@@ -22,10 +22,11 @@ You don't need to install if you don't want to. You can test-drive it at https:/
 
 If you want to install
 * Clone the repo
-* Fill the details in the .env file (database details - we use Postgres)
-* Run composer install
-* Run npm install
-* Run php artisan migrate to create all the DB tables
+* Fill the details in the .env file (insert your database details - we use Postgres - yes, a ready-to-use .env file is included)
+* Run `composer install`
+* Run `npm install`
+* Run `php artisan migrate` to create all the DB tables
+* Run `npm run watch`
 * Then go to http://rockmelon.test (that's the local URL, but you can set it to whatever you want in .env file - make sure you update the /etc/hosts file so your local machine responds to the URL)
 
 # Notes
