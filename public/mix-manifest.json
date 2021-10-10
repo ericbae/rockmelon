@@ -1,0 +1,9 @@
+{
+    "/js/auth/app.js": "/js/auth/app.js",
+    "/js/user/home/app.js": "/js/user/home/app.js",
+    "/js/link-group/try/app.js": "/js/link-group/try/app.js",
+    "/js/link-group/view/app.js": "/js/link-group/view/app.js",
+    "/js/link-group/create/app.js": "/js/link-group/create/app.js",
+    "/js/shared/embeddable-components/contactus/app.js": "/js/shared/embeddable-components/contactus/app.js",
+    "/css/app.css": "/css/app.css"
+}

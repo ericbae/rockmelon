@@ -1,0 +1,24 @@
+.nav-item-header {
+	@apply text-xs uppercase text-gray-500 font-semibold mt-6;
+}
+
+a.nav-item {
+	@apply block mt-2 overflow-hidden;
+}
+
+a.nav-item .nav-item-icon {
+	@apply float-left;
+	margin-top:5px;
+}
+
+a.nav-item .nav-item-text {
+	@apply ml-3 text-gray-800;
+}
+
+a.nav-item:hover .nav-item-text {
+	@apply underline;
+}
+
+a.nav-item.selected .nav-item-text {
+	@apply underline;
+}

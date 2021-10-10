@@ -1,0 +1,41 @@
+table.eb-table {
+  width:100%;
+  border-collapse: collapse;
+  @apply bg-white;
+}
+
+table.eb-table thead {
+	@apply bg-gray-100;
+}
+
+table.eb-table thead tr {
+	@apply border-b border-t border-gray-300;
+}
+
+table.eb-table thead th {
+	@apply font-normal;
+}
+
+table.eb-table thead th:last-child {
+	border:none;
+}
+
+table.eb-table tbody tr {
+	@apply border-b border-gray-200;
+}
+
+table.eb-table tbody tr:last-child {
+	@apply border-none;
+}
+
+table.eb-table tbody tr:hover {
+	@apply bg-gray-100 cursor-pointer;
+}
+
+table.eb-table tbody tr td {
+  @apply align-top;
+}
+
+// table.eb-table tbody {
+// 	@apply border-b border-gray-300;
+// }

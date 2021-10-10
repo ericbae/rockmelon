@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'form.less';
+@import 'table.less';
+@import 'modal.less';
+@import 'pagination.less';
+@import 'header.less';
+@import 'nav.less';
+@import 'vue-multiselect.min.css';
+@import 'vue-select.less';
+@import 'switcher.less';
+@import 'tooltips.less';
+
+@responsive {
+  .max-w-5xl {
+    max-width:60rem;
+  }
+  .max-w-6xl {
+    max-width:70rem;
+  }
+  .max-w-7xl {
+    max-width:80rem;
+  }
+  .max-w-8xl {
+    max-width:88rem;
+  }
+  .max-w-9xl {
+    max-width:96rem;
+  }
+  .max-w-10xl {
+    max-width:104rem;
+  }
+
+  .width-250px {
+    width:250px;
+  }
+
+  .padding-left-300px {
+    padding-left:300px;
+  }
+  
+  .-margin-left-300px {
+    margin-left:-300px;
+  }
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+[data-modal="confirm-modal"] {
+  z-index: 1000 !important;
+}
+
+.tooltip-link {
+  @apply block text-sm text-white no-underline;
+}
+
+.tooltip-link:hover {
+  @apply underline;
+}
+
+.emphasis {
+  @apply text-green-600 font-semibold;
+}
+
+.link {
+  @apply text-green-600 font-semibold underline;
+}
+
+.desktop-only {
+  @apply hidden invisible;
+
+  @media (min-width: 1024px) { 
+    @apply block visible;
+  }
+}
+
+.mobile-only {
+  @apply block visible;
+
+  @media (min-width: 1024px) { 
+    @apply hidden invisible;
+  }
+}
